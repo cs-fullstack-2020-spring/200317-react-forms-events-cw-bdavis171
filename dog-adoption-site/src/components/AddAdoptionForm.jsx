@@ -89,7 +89,7 @@ class AddAdoptionForm extends Component {
 
                         <div>
                             <label htmlFor="age">Age:</label>
-                            <input type="number" name='age' id='age' onChange={this.inputEntries}/>
+                            <input type="number" name='age' id='age' onChange={this.inputEntries} value={this.state.age}/>
                         </div>
 
                         <br/>
